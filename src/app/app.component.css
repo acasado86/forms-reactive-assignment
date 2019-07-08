@@ -1,3 +1,11 @@
 .container {
   margin-top: 30px;
 }
+
+input.ng-invalid.ng-touched, select.ng-invalid.ng-touched {
+  border: solid 1px red;
+}
+
+input.ng-pending {
+  border: solid 1px orange;
+}
